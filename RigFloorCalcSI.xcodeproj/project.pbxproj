@@ -15,6 +15,19 @@
 		7366AC971F45957900A95D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7366AC951F45957900A95D9B /* LaunchScreen.storyboard */; };
 		7366ACA21F45957900A95D9B /* RigFloorCalcSITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366ACA11F45957900A95D9B /* RigFloorCalcSITests.swift */; };
 		7366ACAD1F45957900A95D9B /* RigFloorCalcSIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366ACAC1F45957900A95D9B /* RigFloorCalcSIUITests.swift */; };
+		7366ACBB1F4595ED00A95D9B /* TBVVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366ACBA1F4595ED00A95D9B /* TBVVC.swift */; };
+		7366ACBD1F45AD4D00A95D9B /* A_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366ACBC1F45AD4D00A95D9B /* A_ViewController.swift */; };
+		738A004A1F45AF9400C0C12C /* B_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00491F45AF9400C0C12C /* B_ViewController.swift */; };
+		738A004C1F45AFB500C0C12C /* C_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A004B1F45AFB500C0C12C /* C_ViewController.swift */; };
+		738A004E1F45AFCF00C0C12C /* D_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A004D1F45AFCF00C0C12C /* D_ViewController.swift */; };
+		738A00501F45AFEA00C0C12C /* E_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A004F1F45AFEA00C0C12C /* E_ViewController.swift */; };
+		738A00521F45B00200C0C12C /* F_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00511F45B00200C0C12C /* F_ViewController.swift */; };
+		738A00541F45B01E00C0C12C /* G_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00531F45B01E00C0C12C /* G_ViewController.swift */; };
+		738A00561F45B04E00C0C12C /* H_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00551F45B04E00C0C12C /* H_ViewController.swift */; };
+		738A00581F45B06800C0C12C /* I_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00571F45B06800C0C12C /* I_ViewController.swift */; };
+		738A005A1F45B08D00C0C12C /* J_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A00591F45B08D00C0C12C /* J_ViewController.swift */; };
+		738A005C1F45B0AD00C0C12C /* K_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A005B1F45B0AD00C0C12C /* K_ViewController.swift */; };
+		738A005E1F45B0C900C0C12C /* L_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A005D1F45B0C900C0C12C /* L_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		7366ACA81F45957900A95D9B /* RigFloorCalcSIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RigFloorCalcSIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366ACAC1F45957900A95D9B /* RigFloorCalcSIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigFloorCalcSIUITests.swift; sourceTree = "<group>"; };
 		7366ACAE1F45957900A95D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7366ACBA1F4595ED00A95D9B /* TBVVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVVC.swift; sourceTree = "<group>"; };
+		7366ACBC1F45AD4D00A95D9B /* A_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_ViewController.swift; sourceTree = "<group>"; };
+		738A00491F45AF9400C0C12C /* B_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B_ViewController.swift; sourceTree = "<group>"; };
+		738A004B1F45AFB500C0C12C /* C_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C_ViewController.swift; sourceTree = "<group>"; };
+		738A004D1F45AFCF00C0C12C /* D_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D_ViewController.swift; sourceTree = "<group>"; };
+		738A004F1F45AFEA00C0C12C /* E_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = E_ViewController.swift; sourceTree = "<group>"; };
+		738A00511F45B00200C0C12C /* F_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = F_ViewController.swift; sourceTree = "<group>"; };
+		738A00531F45B01E00C0C12C /* G_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G_ViewController.swift; sourceTree = "<group>"; };
+		738A00551F45B04E00C0C12C /* H_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H_ViewController.swift; sourceTree = "<group>"; };
+		738A00571F45B06800C0C12C /* I_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I_ViewController.swift; sourceTree = "<group>"; };
+		738A00591F45B08D00C0C12C /* J_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = J_ViewController.swift; sourceTree = "<group>"; };
+		738A005B1F45B0AD00C0C12C /* K_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = K_ViewController.swift; sourceTree = "<group>"; };
+		738A005D1F45B0C900C0C12C /* L_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,19 @@
 			children = (
 				7366AC891F45957900A95D9B /* AppDelegate.swift */,
 				7366AC8B1F45957900A95D9B /* ViewController.swift */,
+				7366ACBA1F4595ED00A95D9B /* TBVVC.swift */,
+				7366ACBC1F45AD4D00A95D9B /* A_ViewController.swift */,
+				738A00491F45AF9400C0C12C /* B_ViewController.swift */,
+				738A004B1F45AFB500C0C12C /* C_ViewController.swift */,
+				738A004D1F45AFCF00C0C12C /* D_ViewController.swift */,
+				738A004F1F45AFEA00C0C12C /* E_ViewController.swift */,
+				738A00511F45B00200C0C12C /* F_ViewController.swift */,
+				738A00531F45B01E00C0C12C /* G_ViewController.swift */,
+				738A00551F45B04E00C0C12C /* H_ViewController.swift */,
+				738A00571F45B06800C0C12C /* I_ViewController.swift */,
+				738A00591F45B08D00C0C12C /* J_ViewController.swift */,
+				738A005B1F45B0AD00C0C12C /* K_ViewController.swift */,
+				738A005D1F45B0C900C0C12C /* L_ViewController.swift */,
 				7366AC8D1F45957900A95D9B /* Main.storyboard */,
 				7366AC931F45957900A95D9B /* Assets.xcassets */,
 				7366AC951F45957900A95D9B /* LaunchScreen.storyboard */,
@@ -266,8 +305,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7366AC8C1F45957900A95D9B /* ViewController.swift in Sources */,
+				738A00581F45B06800C0C12C /* I_ViewController.swift in Sources */,
 				7366AC921F45957900A95D9B /* RigFloorCalcSI.xcdatamodeld in Sources */,
+				738A005A1F45B08D00C0C12C /* J_ViewController.swift in Sources */,
 				7366AC8A1F45957900A95D9B /* AppDelegate.swift in Sources */,
+				738A00561F45B04E00C0C12C /* H_ViewController.swift in Sources */,
+				738A004E1F45AFCF00C0C12C /* D_ViewController.swift in Sources */,
+				738A005C1F45B0AD00C0C12C /* K_ViewController.swift in Sources */,
+				738A004A1F45AF9400C0C12C /* B_ViewController.swift in Sources */,
+				738A00541F45B01E00C0C12C /* G_ViewController.swift in Sources */,
+				738A00521F45B00200C0C12C /* F_ViewController.swift in Sources */,
+				738A005E1F45B0C900C0C12C /* L_ViewController.swift in Sources */,
+				738A00501F45AFEA00C0C12C /* E_ViewController.swift in Sources */,
+				738A004C1F45AFB500C0C12C /* C_ViewController.swift in Sources */,
+				7366ACBD1F45AD4D00A95D9B /* A_ViewController.swift in Sources */,
+				7366ACBB1F4595ED00A95D9B /* TBVVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +572,7 @@
 				7366ACB31F45957900A95D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7366ACB41F45957900A95D9B /* Build configuration list for PBXNativeTarget "RigFloorCalcSITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +581,7 @@
 				7366ACB61F45957900A95D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7366ACB71F45957900A95D9B /* Build configuration list for PBXNativeTarget "RigFloorCalcSIUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +590,7 @@
 				7366ACB91F45957900A95D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
