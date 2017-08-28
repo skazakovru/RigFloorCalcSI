@@ -9,34 +9,44 @@
 
 import UIKit
 
+
 class E_ViewController: UIViewController {
-    
-    @IBOutlet weak var triplexLinerId: UITextField!
-    @IBOutlet weak var stroleLengthTextfield: UITextField!
-    @IBOutlet weak var efficiencyTextField: UITextField!
-    @IBOutlet weak var outputLabel: UILabel!
-    
- 
+
+
+    @IBOutlet weak var linerDiam: UITextField!
+    @IBOutlet weak var strokeLength: UITextField!
+    @IBOutlet weak var pumpEfficiency: UITextField!
+    @IBOutlet weak var outputLiters: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
-    @IBAction func calculateButtonTapped(_ sender: Any) {
-
+    @IBAction func caculateBtnTapped(_ sender: Any) {
+        
         let num = NumberFormatter()
-        let firstValue = Double(num.number(from: triplexLinerId.text!)!)
-        let secondValue = Double(num.number(from: stroleLengthTextfield.text!)!)
-        let thirdValue = Double(num.number(from: efficiencyTextField.text!)!)
+        let firstValue = Double(num.number(from: linerDiam.text!)!)
+        let secondValue = Double(num.number(from: strokeLength.text!)!)
+        let thirdValue = Double(num.number(from: pumpEfficiency.text!)!)
         
-        let outputValue1 = Double (0.0002428 * 0.00155 * firstValue * firstValue * 0.03937 * secondValue * thirdValue / 100)
+        let outputValue1 = Double (0.000000015 * firstValue * firstValue *  secondValue * thirdValue / 100)
         
-        let outputValue2 = outputValue1 * 158.98
         
-        outputLabel.text = String (format: "Pump output: %.3f liters/stk", outputValue2)
+        let outputValue2 = outputValue1 * 158.99
+        
+        outputLiters.text = String (format: "%.1f liters/stk", outputValue2)
         
     }
     
+
+    @IBAction func gestureTapped(_ sender: Any) {view.endEditing(true)
+    }
+    
 }
+
+
+
+    
 

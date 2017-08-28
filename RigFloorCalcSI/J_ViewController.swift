@@ -11,5 +11,41 @@ import UIKit
 
 class J_ViewController: UIViewController {
     
+
+    @IBOutlet weak var drillpipeWeight: UITextField!
+
+    @IBOutlet weak var pipeStretch: UITextField!
+ 
+    @IBOutlet weak var pipeOverpull: UITextField!
     
+ 
+    @IBOutlet weak var depthStuck: UILabel!
+
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    @IBAction func calculateBtnTapped(_ sender: Any) {
+    
+        
+        let num = NumberFormatter()
+        let firstValue = Double(num.number(from:drillpipeWeight.text!)!)
+        let secondValue = Double(num.number(from: pipeStretch.text!)!)
+        let thirdValue = Double(num.number(from: pipeOverpull.text!)!)
+        
+        
+        let calculatedValue = 26.89 * secondValue * firstValue / thirdValue
+    
+        
+        depthStuck.text = String (format: "Estimated stuck point: %.0f meters", calculatedValue)
+    }
 }
+
