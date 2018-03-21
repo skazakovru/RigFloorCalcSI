@@ -29,11 +29,11 @@ class K_ViewController: UIViewController {
 
         
         let num = NumberFormatter()
-        let firstValue = Double(num.number(from:annCap.text!)!)
-        let secondValue = Double(num.number(from:lightFluidAdded.text!)!)
-        let thirdValue = Double(num.number(from: addedFluidWeight.text!)!)
-        let fourthValue = Double(num.number(from: originalMudWeight.text!)!)
-        let fifthValue = Double(num.number(from: trueVerticalDepth.text!)!)
+        let firstValue = Double(truncating: num.number(from:annCap.text!)!)
+        let secondValue = Double(truncating: num.number(from:lightFluidAdded.text!)!)
+        let thirdValue = Double(truncating: num.number(from: addedFluidWeight.text!)!)
+        let fourthValue = Double(truncating: num.number(from: originalMudWeight.text!)!)
+        let fifthValue = Double(truncating: num.number(from: trueVerticalDepth.text!)!)
         
             
             let outputValue1 = (0.052 * 0.008347 * (fourthValue - thirdValue) * (6.29 * secondValue / (1.9171 * firstValue))) * 0.00689

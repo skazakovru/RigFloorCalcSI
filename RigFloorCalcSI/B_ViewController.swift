@@ -34,9 +34,9 @@ class B_ViewController: UIViewController {
         var thirdValue = Double(mudWeightTextField.text!)
         
         let numberFormatter = NumberFormatter()
-        firstValue = Double(numberFormatter.number(from: slugVolumeTextField.text!)!)
-        secondValue = Double(numberFormatter.number(from: slWeightTextField.text!)!)
-        thirdValue = Double(numberFormatter.number(from: mudWeightTextField.text!)!)
+        firstValue = Double(truncating: numberFormatter.number(from: slugVolumeTextField.text!)!)
+        secondValue = Double(truncating: numberFormatter.number(from: slWeightTextField.text!)!)
+        thirdValue = Double(truncating: numberFormatter.number(from: mudWeightTextField.text!)!)
         
         if firstValue != nil && secondValue != nil && thirdValue != nil {
             let outputValue = Double(0.159 * (6.29 * firstValue! * (0.0083454 * secondValue! - 0.0083454 * thirdValue!)/(0.0083454 * thirdValue!)))

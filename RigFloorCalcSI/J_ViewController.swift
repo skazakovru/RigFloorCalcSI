@@ -37,9 +37,9 @@ class J_ViewController: UIViewController {
     
         
         let num = NumberFormatter()
-        let firstValue = Double(num.number(from:drillpipeWeight.text!)!)
-        let secondValue = Double(num.number(from: pipeStretch.text!)!)
-        let thirdValue = Double(num.number(from: pipeOverpull.text!)!)
+        let firstValue = Double(truncating: num.number(from:drillpipeWeight.text!)!)
+        let secondValue = Double(truncating: num.number(from: pipeStretch.text!)!)
+        let thirdValue = Double(truncating: num.number(from: pipeOverpull.text!)!)
         
         
         let calculatedValue = 26.89 * secondValue * firstValue / thirdValue

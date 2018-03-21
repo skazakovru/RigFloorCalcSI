@@ -26,9 +26,9 @@ class A_ViewController: UIViewController {
     @IBAction func calcButtonTapped(_ sender: Any) {
     
         let num = NumberFormatter()
-        let firstValue = Double(num.number(from:originalMWTextField.text!)!)
-        let secondValue = Double(num.number(from: shutIDPPtextField.text!)!)
-        let thirdValue = Double(num.number(from: trueVDtextField.text!)!)
+        let firstValue = Double(truncating: num.number(from:originalMWTextField.text!)!)
+        let secondValue = Double(truncating: num.number(from: shutIDPPtextField.text!)!)
+        let thirdValue = Double(truncating: num.number(from: trueVDtextField.text!)!)
 
             
     

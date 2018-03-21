@@ -27,9 +27,9 @@ class E_ViewController: UIViewController {
     @IBAction func caculateBtnTapped(_ sender: Any) {
         
         let num = NumberFormatter()
-        let firstValue = Double(num.number(from: linerDiam.text!)!)
-        let secondValue = Double(num.number(from: strokeLength.text!)!)
-        let thirdValue = Double(num.number(from: pumpEfficiency.text!)!)
+        let firstValue = Double(truncating: num.number(from: linerDiam.text!)!)
+        let secondValue = Double(truncating: num.number(from: strokeLength.text!)!)
+        let thirdValue = Double(truncating: num.number(from: pumpEfficiency.text!)!)
         
         let outputValue1 = Double (0.000000015 * firstValue * firstValue *  secondValue * thirdValue / 100)
         

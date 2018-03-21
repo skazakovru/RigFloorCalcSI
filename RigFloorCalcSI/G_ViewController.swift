@@ -41,16 +41,16 @@ class G_ViewController: UIViewController {
 
         
         let num = NumberFormatter()
-        let value1 = Double(num.number(from:casingID.text!)!)
-        let value2 = Double(num.number(from: casingMD.text!)!)
-        let value3 = Double(num.number(from: bitOD.text!)!)
-        let value4 = Double(num.number(from: bitMD.text!)!)
-        let value5 = Double(num.number(from: drillC1.text!)!)
-        let value7 = Double(num.number(from: heavyWDP.text!)!)
-        let value8 = Double(num.number(from: drillPipe.text!)!)
-        let value9 = Double(num.number(from: drillC1Length.text!)!)
-        let value11 = Double(num.number(from:heavyWDpLength.text!)!)
-        let value13 = Double(num.number(from: pumpRate.text!)!)
+        let value1 = Double(truncating: num.number(from:casingID.text!)!)
+        let value2 = Double(truncating: num.number(from: casingMD.text!)!)
+        let value3 = Double(truncating: num.number(from: bitOD.text!)!)
+        let value4 = Double(truncating: num.number(from: bitMD.text!)!)
+        let value5 = Double(truncating: num.number(from: drillC1.text!)!)
+        let value7 = Double(truncating: num.number(from: heavyWDP.text!)!)
+        let value8 = Double(truncating: num.number(from: drillPipe.text!)!)
+        let value9 = Double(truncating: num.number(from: drillC1Length.text!)!)
+        let value11 = Double(truncating: num.number(from:heavyWDpLength.text!)!)
+        let value13 = Double(truncating: num.number(from: pumpRate.text!)!)
         
       
             

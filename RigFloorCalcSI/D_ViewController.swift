@@ -29,9 +29,9 @@ class D_ViewController: UIViewController {
     @IBAction func calcButtonTapped(_ sender: Any) {
 
         let numFor = NumberFormatter()
-        let firstValue = Double(numFor.number (from: pipeIDTextField.text!)!)
-        let secondValue = Double(numFor.number(from: weightTJTextField.text!)!)
-        let thirdValue = Double(numFor.number(from: lengthTextField.text!)!)
+        let firstValue = Double(truncating: numFor.number (from: pipeIDTextField.text!)!)
+        let secondValue = Double(truncating: numFor.number(from: weightTJTextField.text!)!)
+        let thirdValue = Double(truncating: numFor.number(from: lengthTextField.text!)!)
         
             
         let calculatedValue = (0.672 * secondValue * 0.0003638 * thirdValue * 3.281)

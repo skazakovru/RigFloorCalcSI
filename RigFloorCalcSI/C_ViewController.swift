@@ -32,10 +32,10 @@ class C_ViewController: UIViewController {
         var fourthValue = Double(mudWeight.text!)
         
         let numberFormatter = NumberFormatter()
-        firstValue = Double(numberFormatter.number(from: drillPipeID.text!)!)
-        secondValue = Double(numberFormatter.number(from: slugVolume.text!)!)
-        thirdValue = Double(numberFormatter.number(from: slugWeight.text!)!)
-        fourthValue = Double(numberFormatter.number(from: mudWeight.text!)!)
+        firstValue = Double(truncating: numberFormatter.number(from: drillPipeID.text!)!)
+        secondValue = Double(truncating: numberFormatter.number(from: slugVolume.text!)!)
+        thirdValue = Double(truncating: numberFormatter.number(from: slugWeight.text!)!)
+        fourthValue = Double(truncating: numberFormatter.number(from: mudWeight.text!)!)
         
         if firstValue != nil && secondValue != nil && thirdValue != nil && fourthValue != nil {
             
