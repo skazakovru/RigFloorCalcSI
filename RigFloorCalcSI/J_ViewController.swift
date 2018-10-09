@@ -8,6 +8,7 @@
 
 
 import UIKit
+import Foundation
 
 class J_ViewController: UIViewController {
     

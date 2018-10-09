@@ -8,6 +8,7 @@
 
 
 import UIKit
+import Foundation
 
 class G_ViewController: UIViewController {
     

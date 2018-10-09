@@ -8,6 +8,7 @@
 
 
 import UIKit
+import Foundation
 
 class K_ViewController: UIViewController {
     
