@@ -27,9 +27,18 @@ class A_ViewController: UIViewController {
     @IBAction func calcButtonTapped(_ sender: Any) {
     
         let num = NumberFormatter()
+        print(num.locale!)     // to test locale on iPhone
+        var value2 = shutIDPPtextField.text!
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
+        var value3 = trueVDtextField.text!
+        if num.number(from:value3) == nil {
+            value3 = value3.replacingOccurrences(of: ".", with: ",")
+        }
         let firstValue = Double(truncating: num.number(from:originalMWTextField.text!)!)
-        let secondValue = Double(truncating: num.number(from: shutIDPPtextField.text!)!)
-        let thirdValue = Double(truncating: num.number(from: trueVDtextField.text!)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
+        let thirdValue = Double(truncating: num.number(from: value3)!)
 
             
     

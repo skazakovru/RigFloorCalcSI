@@ -34,10 +34,16 @@ class B_ViewController: UIViewController {
         var secondValue = Double(slWeightTextField.text!)
         var thirdValue = Double(mudWeightTextField.text!)
         
-        let numberFormatter = NumberFormatter()
-        firstValue = Double(truncating: numberFormatter.number(from: slugVolumeTextField.text!)!)
-        secondValue = Double(truncating: numberFormatter.number(from: slWeightTextField.text!)!)
-        thirdValue = Double(truncating: numberFormatter.number(from: mudWeightTextField.text!)!)
+        let num = NumberFormatter()
+        print(num.locale!)
+        var value1 = slugVolumeTextField.text!
+        if num.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        }
+            
+        firstValue = Double(truncating: num.number(from: value1)!)
+        secondValue = Double(truncating: num.number(from: slWeightTextField.text!)!)
+        thirdValue = Double(truncating: num.number(from: mudWeightTextField.text!)!)
         
         if firstValue != nil && secondValue != nil && thirdValue != nil {
             let outputValue = Double(0.159 * (6.29 * firstValue! * (0.0083454 * secondValue! - 0.0083454 * thirdValue!)/(0.0083454 * thirdValue!)))
