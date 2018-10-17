@@ -33,10 +33,26 @@ class C_ViewController: UIViewController {
         var fourthValue = Double(mudWeight.text!)
         
         let numberFormatter = NumberFormatter()
-        firstValue = Double(truncating: numberFormatter.number(from: drillPipeID.text!)!)
-        secondValue = Double(truncating: numberFormatter.number(from: slugVolume.text!)!)
-        thirdValue = Double(truncating: numberFormatter.number(from: slugWeight.text!)!)
-        fourthValue = Double(truncating: numberFormatter.number(from: mudWeight.text!)!)
+        
+        var value1 = drillPipeID.text!
+        var value2 = slugVolume.text!
+        var value3 = slugWeight.text!
+        var value4 = mudWeight.text!
+        
+        if numberFormatter.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        } else if numberFormatter.number(from: value2) == nil {
+             value2 = value2.replacingOccurrences(of: ".", with: ",")
+        } else if numberFormatter.number(from: value3) == nil {
+            value3 = value3.replacingOccurrences(of: ".", with: ",")
+        } else if numberFormatter.number(from: value4) == nil {
+            value4 = value4.replacingOccurrences(of: ".", with: ",")
+        }
+        
+        firstValue = Double(truncating: numberFormatter.number(from: value1)!)
+        secondValue = Double(truncating: numberFormatter.number(from: value2)!)
+        thirdValue = Double(truncating: numberFormatter.number(from: value3)!)
+        fourthValue = Double(truncating: numberFormatter.number(from: value4)!)
         
         if firstValue != nil && secondValue != nil && thirdValue != nil && fourthValue != nil {
             
