@@ -45,8 +45,16 @@ class F_ViewController: UIViewController {
     @IBAction func calculateButtonTapped(_ sender: Any) {
         
         let num = NumberFormatter()
-        let firstValue = Double(truncating: num.number(from: mudVolumeTextField.text!)!)
-        let secondValue = Double(truncating: num.number(from: pressureAppliedTextField.text!)!)
+        var value1 = mudVolumeTextField.text!
+        if num.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        }
+        var value2 = pressureAppliedTextField.text!
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
+        let firstValue = Double(truncating: num.number(from: value1)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
         
         let outPut = Double (6.29 * firstValue * 145 * secondValue * resultLable) * 0.159
             

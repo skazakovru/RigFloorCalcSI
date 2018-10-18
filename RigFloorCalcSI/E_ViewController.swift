@@ -28,7 +28,11 @@ class E_ViewController: UIViewController {
     @IBAction func caculateBtnTapped(_ sender: Any) {
         
         let num = NumberFormatter()
-        let firstValue = Double(truncating: num.number(from: linerDiam.text!)!)
+        var value = linerDiam.text!
+        if num.number(from:value) == nil {
+            value = value.replacingOccurrences(of: ".", with: ",")
+        }
+        let firstValue = Double(truncating: num.number(from: value)!)
         let secondValue = Double(truncating: num.number(from: strokeLength.text!)!)
         let thirdValue = Double(truncating: num.number(from: pumpEfficiency.text!)!)
         
