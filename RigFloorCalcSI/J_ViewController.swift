@@ -38,9 +38,21 @@ class J_ViewController: UIViewController {
     
         
         let num = NumberFormatter()
-        let firstValue = Double(truncating: num.number(from:drillpipeWeight.text!)!)
-        let secondValue = Double(truncating: num.number(from: pipeStretch.text!)!)
-        let thirdValue = Double(truncating: num.number(from: pipeOverpull.text!)!)
+        var value1 = drillpipeWeight.text!
+        if num.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        }
+        var value2 = pipeStretch.text!
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
+        var value3 = pipeOverpull.text!
+        if num.number(from:value3) == nil {
+            value3 = value3.replacingOccurrences(of: ".", with: ",")
+        }
+        let firstValue = Double(truncating: num.number(from: value1)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
+        let thirdValue = Double(truncating: num.number(from: value3)!)
         
         
         let calculatedValue = 26.89 * secondValue * firstValue / thirdValue

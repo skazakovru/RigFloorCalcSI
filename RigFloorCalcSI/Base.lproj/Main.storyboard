@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tiw-uC-u4r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tiw-uC-u4r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="AvenirNext.ttc">
-            <string>AvenirNext-Bold</string>
-            <string>AvenirNext-Heavy</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="JS9-jm-b7w">
@@ -34,7 +28,7 @@
         <!--Calculators List-->
         <scene sceneID="GQD-QX-zxU">
             <objects>
-                <tableViewController id="ESP-yP-oca" customClass="TableViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ESP-yP-oca" customClass="TableViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtQ-hz-bT5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +59,7 @@
         <!--View Controller-->
         <scene sceneID="3cR-hb-qHe">
             <objects>
-                <viewController storyboardIdentifier="L" id="eAK-1B-qHz" customClass="L_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="L" id="eAK-1B-qHz" customClass="L_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eg4-Qk-UMs"/>
                         <viewControllerLayoutGuide type="bottom" id="6Zk-hr-Bsg"/>
@@ -313,7 +307,7 @@
         <!--View Controller-->
         <scene sceneID="2Q0-0s-ssG">
             <objects>
-                <viewController storyboardIdentifier="A" id="sEa-eN-dQ1" customClass="A_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="A" id="sEa-eN-dQ1" customClass="A_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="18V-fA-RVA"/>
                         <viewControllerLayoutGuide type="bottom" id="a0S-fQ-GiT"/>
@@ -456,7 +450,7 @@
         <!--View Controller-->
         <scene sceneID="XGi-7B-jBe">
             <objects>
-                <viewController storyboardIdentifier="B" id="q9P-C2-ZLW" customClass="B_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="B" id="q9P-C2-ZLW" customClass="B_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iAP-fX-QeP"/>
                         <viewControllerLayoutGuide type="bottom" id="0OC-gQ-bWx"/>
@@ -598,7 +592,7 @@
         <!--View Controller-->
         <scene sceneID="S1t-Df-2RM">
             <objects>
-                <viewController storyboardIdentifier="C" id="DjP-xc-cpK" customClass="C_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="C" id="DjP-xc-cpK" customClass="C_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hB9-cp-gha"/>
                         <viewControllerLayoutGuide type="bottom" id="HjV-sg-woU"/>
@@ -759,7 +753,7 @@
         <!--View Controller-->
         <scene sceneID="Anz-iU-aal">
             <objects>
-                <viewController storyboardIdentifier="D" id="8XU-lb-Em0" customClass="D_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="D" id="8XU-lb-Em0" customClass="D_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oba-Ok-dP5"/>
                         <viewControllerLayoutGuide type="bottom" id="XQa-No-Yam"/>
@@ -920,7 +914,7 @@
         <!--View Controller-->
         <scene sceneID="Jr8-iu-Wmf">
             <objects>
-                <viewController storyboardIdentifier="E" id="WCW-T1-zEA" customClass="E_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="E" id="WCW-T1-zEA" customClass="E_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pvN-RP-Eo8"/>
                         <viewControllerLayoutGuide type="bottom" id="XR5-HA-xq7"/>
@@ -1054,7 +1048,7 @@
         <!--View Controller-->
         <scene sceneID="3V6-iH-iid">
             <objects>
-                <viewController storyboardIdentifier="F" id="D06-Z0-zNg" customClass="F_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="F" id="D06-Z0-zNg" customClass="F_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uhx-jp-V2J"/>
                         <viewControllerLayoutGuide type="bottom" id="gVe-J1-7Ze"/>
@@ -1196,7 +1190,7 @@
         <!--View Controller-->
         <scene sceneID="oM1-3x-P5v">
             <objects>
-                <viewController storyboardIdentifier="G" id="Vaw-D5-3bd" customClass="G_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="G" id="Vaw-D5-3bd" customClass="G_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OvN-I8-MuJ"/>
                         <viewControllerLayoutGuide type="bottom" id="x5e-qo-zTd"/>
@@ -1384,13 +1378,13 @@
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-Il-u8J">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycz-Il-u8J">
                                                         <rect key="frame" x="0.0" y="110.00000000000001" width="133.33333333333334" height="24.999999999999986"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="B80-Rq-syV"/>
                                                             <constraint firstAttribute="height" constant="25" id="Hzg-ZI-Yys"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1510,7 +1504,7 @@
         <!--View Controller-->
         <scene sceneID="DqG-Eb-qRV">
             <objects>
-                <viewController storyboardIdentifier="I" id="jBE-Hq-y0y" customClass="I_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="I" id="jBE-Hq-y0y" customClass="I_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xEd-nU-qQK"/>
                         <viewControllerLayoutGuide type="bottom" id="AQV-gi-Elj"/>
@@ -1537,16 +1531,16 @@
                                         <rect key="frame" x="0.0" y="34" width="404" height="162"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="iOT-My-YhQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="278" height="162"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="277.66666666666669" height="162"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measured Lag Time, min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlJ-Hh-zmG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="278" height="20.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="277.66666666666669" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annular Volume, m3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qI8-Sj-uQ6">
-                                                        <rect key="frame" x="0.0" y="33.666666666666671" width="278" height="16"/>
+                                                        <rect key="frame" x="0.0" y="33.666666666666671" width="277.66666666666669" height="16"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="16" id="NT7-zi-cF3"/>
                                                         </constraints>
@@ -1555,7 +1549,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bit Size, mm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uT6-er-xRE">
-                                                        <rect key="frame" x="0.0" y="63" width="278" height="21"/>
+                                                        <rect key="frame" x="0.0" y="63" width="277.66666666666669" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="21" id="ojb-Qd-LQ2"/>
                                                         </constraints>
@@ -1564,7 +1558,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pump Output, m3/min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVh-Qp-Gdb">
-                                                        <rect key="frame" x="0.0" y="97.333333333333343" width="278" height="19"/>
+                                                        <rect key="frame" x="0.0" y="97.333333333333343" width="277.66666666666669" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="7Rd-zs-4ZX"/>
                                                         </constraints>
@@ -1573,7 +1567,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OH Length, m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsz-f0-c5O">
-                                                        <rect key="frame" x="0.0" y="129.66666666666666" width="278" height="32.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="129.66666666666666" width="277.66666666666669" height="32.333333333333343"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1584,10 +1578,10 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="0vV-CT-rh8">
-                                                <rect key="frame" x="283" y="0.0" width="121" height="162"/>
+                                                <rect key="frame" x="282.66666666666669" y="0.0" width="121.33333333333331" height="162"/>
                                                 <subviews>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="min" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70J-El-vp5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="121" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="121.33333333333333" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="bAD-4L-B3b"/>
                                                         </constraints>
@@ -1596,7 +1590,7 @@
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="m3" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gqG-2g-AUr">
-                                                        <rect key="frame" x="0.0" y="33" width="121" height="30"/>
+                                                        <rect key="frame" x="0.0" y="33" width="121.33333333333333" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="1Ur-wB-vse"/>
                                                         </constraints>
@@ -1605,7 +1599,7 @@
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mm" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xec-DO-8wr">
-                                                        <rect key="frame" x="0.0" y="66" width="121" height="30"/>
+                                                        <rect key="frame" x="0.0" y="66" width="121.33333333333333" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="tPA-Ye-SWy"/>
                                                         </constraints>
@@ -1614,7 +1608,7 @@
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="m3/min" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aQ1-ab-an7">
-                                                        <rect key="frame" x="0.0" y="99" width="121" height="30"/>
+                                                        <rect key="frame" x="0.0" y="99" width="121.33333333333333" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="CpY-ez-OJm"/>
                                                         </constraints>
@@ -1623,7 +1617,7 @@
                                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="m" textAlignment="right" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="U60-xQ-xcl">
-                                                        <rect key="frame" x="0.0" y="132" width="121" height="30"/>
+                                                        <rect key="frame" x="0.0" y="132" width="121.33333333333333" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="gbr-8S-Gmt"/>
                                                         </constraints>
@@ -1707,7 +1701,7 @@
         <!--View Controller-->
         <scene sceneID="Qk7-Vc-Mil">
             <objects>
-                <viewController storyboardIdentifier="H" id="foG-N9-4Mk" customClass="H_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="H" id="foG-N9-4Mk" customClass="H_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gaF-sn-kCl"/>
                         <viewControllerLayoutGuide type="bottom" id="cGu-Sc-jPt"/>
@@ -1853,7 +1847,7 @@
         <!--View Controller-->
         <scene sceneID="fmd-KE-p9c">
             <objects>
-                <viewController storyboardIdentifier="K" id="fBc-QI-Lzc" customClass="K_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="K" id="fBc-QI-Lzc" customClass="K_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IeO-dN-rjn"/>
                         <viewControllerLayoutGuide type="bottom" id="WcN-7D-ata"/>
@@ -2032,7 +2026,7 @@
         <!--View Controller-->
         <scene sceneID="ad4-Ya-Hyh">
             <objects>
-                <viewController storyboardIdentifier="J" id="gnB-73-ScB" customClass="J_ViewController" customModule="RigFloorCalcSI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="J" id="gnB-73-ScB" customClass="J_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OMP-Ks-Rlz"/>
                         <viewControllerLayoutGuide type="bottom" id="xyr-ZX-Kbd"/>

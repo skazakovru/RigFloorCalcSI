@@ -50,7 +50,7 @@ class G_ViewController: UIViewController {
         var valueSix = heavyWDP.text!
         var valueSeven = drillPipe.text!
         var valueEight = drillC1Length.text!
-        var valueNine = heavyWDP.text!
+        var valueNine = heavyWDpLength.text!
         var valueTen = pumpRate.text!
         
         if num.number(from:valueOne) == nil {valueOne = valueOne.replacingOccurrences(of: ".", with: ",")}
@@ -80,6 +80,8 @@ class G_ViewController: UIViewController {
             
    
             let dpLength = Double (value4 - (value8 + value9))
+        
+            dpLengthLabel.text = String(dpLength)
             
             let dpVolume = (value5 * value5 * value8 + value6 * value6 * value9 + value7 * value7 * dpLength) * 0.00000494
             

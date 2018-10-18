@@ -34,10 +34,21 @@ class H_ViewController: UIViewController {
         
         
         let num = NumberFormatter()
-        num.locale = Locale.current
-        let firstValue = Double(truncating: num.number(from:shoeTVD.text!)!)
-        let secondValue = Double(truncating: num.number(from: mudWeight.text!)!)
-        let thirdValue = Double(truncating: num.number(from: tagetFIT.text!)!)
+        var value1 = shoeTVD.text!
+        if num.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        }
+        var value2 = mudWeight.text!
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
+        var value3 = tagetFIT.text!
+        if num.number(from:value3) == nil {
+            value3 = value3.replacingOccurrences(of: ".", with: ",")
+        }
+        let firstValue = Double(truncating: num.number(from: value1)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
+        let thirdValue = Double(truncating: num.number(from: value3)!)
         
         let outputValue = 0.000009817 * firstValue * (thirdValue - secondValue)
         

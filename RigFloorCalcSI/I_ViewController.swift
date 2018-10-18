@@ -32,11 +32,31 @@ class I_ViewController: UIViewController {
     @IBAction func calculateTapped(_ sender: Any) {
         
         let num = NumberFormatter()
-        let firstValue = Double(truncating: num.number(from:measuredLagTime.text!)!)
-        let secondValue = Double(truncating: num.number(from:annularVolume.text!)!)
-        let thirdValue = Double(truncating: num.number(from: bitSize.text!)!)
-        let fourthValue = Double(truncating: num.number(from: pumpOutput.text!)!)
-        let fifthValue = Double(truncating: num.number(from: openHoleLength.text!)!)
+        var value1 = measuredLagTime.text!
+        if num.number(from:value1) == nil {
+            value1 = value1.replacingOccurrences(of: ".", with: ",")
+        }
+        var value2 = annularVolume.text!
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
+        var value3 = bitSize.text!
+        if num.number(from:value3) == nil {
+            value3 = value3.replacingOccurrences(of: ".", with: ",")
+        }
+        var value4 = pumpOutput.text!
+        if num.number(from:value4) == nil {
+            value4 = value4.replacingOccurrences(of: ".", with: ",")
+        }
+        var value5 = openHoleLength.text!
+        if num.number(from:value5) == nil {
+            value5 = value5.replacingOccurrences(of: ".", with: ",")
+        }
+        let firstValue = Double(truncating: num.number(from: value1)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
+        let thirdValue = Double(truncating: num.number(from: value3)!)
+        let fourthValue = Double(truncating: num.number(from: value4)!)
+        let fifthValue = Double(truncating: num.number(from: value5)!)
         
             
             let outputValue = (sqrt((firstValue - secondValue / fourthValue) * 6.29 * fourthValue * 1029.4 / (fifthValue * 3.281) + thirdValue * thirdValue * 0.00155)) * 25.4
