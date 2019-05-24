@@ -39,7 +39,9 @@ class G_ViewController: UIViewController {
 
  
     @IBAction func calculateButtonTapped(_ sender: Any) {
-
+        if drillC1.text == "" || heavyWDP.text == "" || drillC1Length.text == "" || heavyWDpLength.text == "" {
+            annularVolumeM3.text = String("Please enter '0' if no DCs or HWDP in the string")
+        } else {
         
         let num = NumberFormatter()
         var valueOne = casingID.text!
@@ -76,8 +78,6 @@ class G_ViewController: UIViewController {
         let value9 = Double(truncating: num.number(from: valueNine)!)
         let value10 = Double(truncating: num.number(from: valueTen)!)
         
-      
-            
    
             let dpLength = Double (value4 - (value8 + value9))
         
@@ -92,7 +92,7 @@ class G_ViewController: UIViewController {
             let timeToBU = annVolume / value10
             
             bottomsUpMin.text = String (format: "Bottoms up time %.0f min", timeToBU)
-            
+        }
         }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }

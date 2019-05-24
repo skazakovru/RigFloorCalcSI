@@ -28,7 +28,9 @@ class D_ViewController: UIViewController {
     }
     
     @IBAction func calcButtonTapped(_ sender: Any) {
-
+        if pipeIDTextField.text == "" || weightTJTextField.text == "" || lengthTextField.text == "" {
+            openEndTextField.text = String("Please fill out all cells with real numbers first.")
+        } else {
         let num = NumberFormatter()
         var value1 = pipeIDTextField.text!
         if num.number(from:value1) == nil {
@@ -60,5 +62,5 @@ class D_ViewController: UIViewController {
         
     }
     
-
+}
 

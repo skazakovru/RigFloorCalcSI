@@ -29,6 +29,9 @@ class B_ViewController: UIViewController {
     
     
     @IBAction func calculateTapped(_ sender: Any) {
+        if slugVolumeTextField.text == "" || slWeightTextField.text == "" || mudWeightTextField.text == "" {
+            outputTextLabel.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
         
         var firstValue = Double(slugVolumeTextField.text!)
         var secondValue = Double(slWeightTextField.text!)
@@ -51,6 +54,7 @@ class B_ViewController: UIViewController {
             outputTextLabel.text = String(format:"Pit Gain: %.2f m3", outputValue)
         
         }
+    }
     }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }

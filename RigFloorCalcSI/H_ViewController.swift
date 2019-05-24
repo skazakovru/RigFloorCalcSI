@@ -31,7 +31,9 @@ class H_ViewController: UIViewController {
     
     
     @IBAction func calculateTapped(_ sender: Any) {
-        
+        if shoeTVD.text == "" || mudWeight.text == "" || tagetFIT.text == "" {
+            outputPressureApply.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
         
         let num = NumberFormatter()
         var value1 = shoeTVD.text!
@@ -53,6 +55,7 @@ class H_ViewController: UIViewController {
         let outputValue = 0.000009817 * firstValue * (thirdValue - secondValue)
         
         outputPressureApply.text = String (format: "Surface pressure to apply: %.2f MPa", outputValue)
+    }
     }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }

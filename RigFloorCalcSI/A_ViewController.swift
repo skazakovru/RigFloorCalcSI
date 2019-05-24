@@ -25,7 +25,10 @@ class A_ViewController: UIViewController {
     }
     
     @IBAction func calcButtonTapped(_ sender: Any) {
-    
+        if originalMWTextField.text == "" || shutIDPPtextField.text == "" || trueVDtextField.text == "" {
+            outputLabel.text = String("Nice try! Please fill out all cells with real numbers.")
+        } else {
+        
         let num = NumberFormatter()
         print(num.locale!)     // to test locale on iPhone
         var value2 = shutIDPPtextField.text!
@@ -46,7 +49,7 @@ class A_ViewController: UIViewController {
             
             outputLabel.text = String(format:"Kill weight mud: %.0f kg/m3", outputValue)
         }
-
+    }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }
     }

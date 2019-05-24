@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import RigFloorCalcSI
+
 
 class RigFloorCalcSITests: XCTestCase {
     

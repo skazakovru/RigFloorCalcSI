@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7366AC861F45957900A95D9B /* MetricRigCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricRigCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7366AC861F45957900A95D9B /* MetricRigCalcSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricRigCalcSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366AC891F45957900A95D9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7366AC8B1F45957900A95D9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7366AC8E1F45957900A95D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +55,10 @@
 		7366AC931F45957900A95D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7366AC961F45957900A95D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7366AC981F45957900A95D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7366AC9D1F45957900A95D9B /* MetricRigCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricRigCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7366AC9D1F45957900A95D9B /* MetricRigCalcSITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricRigCalcSITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366ACA11F45957900A95D9B /* RigFloorCalcSITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigFloorCalcSITests.swift; sourceTree = "<group>"; };
 		7366ACA31F45957900A95D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7366ACA81F45957900A95D9B /* MetricRigCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricRigCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7366ACA81F45957900A95D9B /* MetricRigCalcSIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricRigCalcSIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366ACAC1F45957900A95D9B /* RigFloorCalcSIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RigFloorCalcSIUITests.swift; sourceTree = "<group>"; };
 		7366ACAE1F45957900A95D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7366ACBA1F4595ED00A95D9B /* TBVVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVVC.swift; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 		7366AC871F45957900A95D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7366AC861F45957900A95D9B /* MetricRigCalc.app */,
-				7366AC9D1F45957900A95D9B /* MetricRigCalcTests.xctest */,
-				7366ACA81F45957900A95D9B /* MetricRigCalcUITests.xctest */,
+				7366AC861F45957900A95D9B /* MetricRigCalcSI.app */,
+				7366AC9D1F45957900A95D9B /* MetricRigCalcSITests.xctest */,
+				7366ACA81F45957900A95D9B /* MetricRigCalcSIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7366AC851F45957900A95D9B /* MetricRigCalc */ = {
+		7366AC851F45957900A95D9B /* MetricRigCalcSI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7366ACB11F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalc" */;
+			buildConfigurationList = 7366ACB11F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSI" */;
 			buildPhases = (
 				7366AC821F45957900A95D9B /* Sources */,
 				7366AC831F45957900A95D9B /* Frameworks */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = MetricRigCalc;
+			name = MetricRigCalcSI;
 			productName = RigFloorCalcSI;
-			productReference = 7366AC861F45957900A95D9B /* MetricRigCalc.app */;
+			productReference = 7366AC861F45957900A95D9B /* MetricRigCalcSI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7366AC9C1F45957900A95D9B /* MetricRigCalcTests */ = {
+		7366AC9C1F45957900A95D9B /* MetricRigCalcSITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7366ACB41F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcTests" */;
+			buildConfigurationList = 7366ACB41F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSITests" */;
 			buildPhases = (
 				7366AC991F45957900A95D9B /* Sources */,
 				7366AC9A1F45957900A95D9B /* Frameworks */,
@@ -197,14 +197,14 @@
 			dependencies = (
 				7366AC9F1F45957900A95D9B /* PBXTargetDependency */,
 			);
-			name = MetricRigCalcTests;
+			name = MetricRigCalcSITests;
 			productName = RigFloorCalcSITests;
-			productReference = 7366AC9D1F45957900A95D9B /* MetricRigCalcTests.xctest */;
+			productReference = 7366AC9D1F45957900A95D9B /* MetricRigCalcSITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7366ACA71F45957900A95D9B /* MetricRigCalcUITests */ = {
+		7366ACA71F45957900A95D9B /* MetricRigCalcSIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7366ACB71F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcUITests" */;
+			buildConfigurationList = 7366ACB71F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSIUITests" */;
 			buildPhases = (
 				7366ACA41F45957900A95D9B /* Sources */,
 				7366ACA51F45957900A95D9B /* Frameworks */,
@@ -215,9 +215,9 @@
 			dependencies = (
 				7366ACAA1F45957900A95D9B /* PBXTargetDependency */,
 			);
-			name = MetricRigCalcUITests;
+			name = MetricRigCalcSIUITests;
 			productName = RigFloorCalcSIUITests;
-			productReference = 7366ACA81F45957900A95D9B /* MetricRigCalcUITests.xctest */;
+			productReference = 7366ACA81F45957900A95D9B /* MetricRigCalcSIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,34 +227,34 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Sergei Kazakov";
 				TargetAttributes = {
 					7366AC851F45957900A95D9B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6GKM2ZQ24G;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					7366AC9C1F45957900A95D9B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6GKM2ZQ24G;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7366AC851F45957900A95D9B;
 					};
 					7366ACA71F45957900A95D9B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6GKM2ZQ24G;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7366AC851F45957900A95D9B;
 					};
 				};
 			};
-			buildConfigurationList = 7366AC811F45957900A95D9B /* Build configuration list for PBXProject "MetricRigCalc" */;
+			buildConfigurationList = 7366AC811F45957900A95D9B /* Build configuration list for PBXProject "MetricRigCalcSI" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -265,9 +265,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7366AC851F45957900A95D9B /* MetricRigCalc */,
-				7366AC9C1F45957900A95D9B /* MetricRigCalcTests */,
-				7366ACA71F45957900A95D9B /* MetricRigCalcUITests */,
+				7366AC851F45957900A95D9B /* MetricRigCalcSI */,
+				7366AC9C1F45957900A95D9B /* MetricRigCalcSITests */,
+				7366ACA71F45957900A95D9B /* MetricRigCalcSIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,12 +343,12 @@
 /* Begin PBXTargetDependency section */
 		7366AC9F1F45957900A95D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7366AC851F45957900A95D9B /* MetricRigCalc */;
+			target = 7366AC851F45957900A95D9B /* MetricRigCalcSI */;
 			targetProxy = 7366AC9E1F45957900A95D9B /* PBXContainerItemProxy */;
 		};
 		7366ACAA1F45957900A95D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7366AC851F45957900A95D9B /* MetricRigCalc */;
+			target = 7366AC851F45957900A95D9B /* MetricRigCalcSI */;
 			targetProxy = 7366ACA91F45957900A95D9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -377,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -436,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -494,8 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.MetricRigCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -511,8 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.MetricRigCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -527,9 +527,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.RigFloorCalcSITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetricRigCalc.app/MetricRigCalc";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetricRigCalcSI.app/MetricRigCalcSI";
 			};
 			name = Debug;
 		};
@@ -543,9 +542,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.RigFloorCalcSITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetricRigCalc.app/MetricRigCalc";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetricRigCalcSI.app/MetricRigCalcSI";
 			};
 			name = Release;
 		};
@@ -558,8 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.RigFloorCalcSIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = RigFloorCalcSI;
 			};
 			name = Debug;
@@ -573,8 +570,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rigpet.RigFloorCalcSIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = RigFloorCalcSI;
 			};
 			name = Release;
@@ -582,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7366AC811F45957900A95D9B /* Build configuration list for PBXProject "MetricRigCalc" */ = {
+		7366AC811F45957900A95D9B /* Build configuration list for PBXProject "MetricRigCalcSI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7366ACAF1F45957900A95D9B /* Debug */,
@@ -591,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7366ACB11F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalc" */ = {
+		7366ACB11F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7366ACB21F45957900A95D9B /* Debug */,
@@ -600,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7366ACB41F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcTests" */ = {
+		7366ACB41F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7366ACB51F45957900A95D9B /* Debug */,
@@ -609,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7366ACB71F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcUITests" */ = {
+		7366ACB71F45957900A95D9B /* Build configuration list for PBXNativeTarget "MetricRigCalcSIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7366ACB81F45957900A95D9B /* Debug */,

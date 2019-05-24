@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tiw-uC-u4r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tiw-uC-u4r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,7 +28,7 @@
         <!--Calculators List-->
         <scene sceneID="GQD-QX-zxU">
             <objects>
-                <tableViewController id="ESP-yP-oca" customClass="TableViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ESP-yP-oca" customClass="TableViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtQ-hz-bT5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
         <!--View Controller-->
         <scene sceneID="3cR-hb-qHe">
             <objects>
-                <viewController storyboardIdentifier="L" id="eAK-1B-qHz" customClass="L_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="L" id="eAK-1B-qHz" customClass="L_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eg4-Qk-UMs"/>
                         <viewControllerLayoutGuide type="bottom" id="6Zk-hr-Bsg"/>
@@ -307,7 +307,7 @@
         <!--View Controller-->
         <scene sceneID="2Q0-0s-ssG">
             <objects>
-                <viewController storyboardIdentifier="A" id="sEa-eN-dQ1" customClass="A_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="A" id="sEa-eN-dQ1" customClass="A_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="18V-fA-RVA"/>
                         <viewControllerLayoutGuide type="bottom" id="a0S-fQ-GiT"/>
@@ -400,7 +400,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbT-zF-4mN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="FbT-zF-4mN">
                                 <rect key="frame" x="5" y="238.66666666666666" width="404" height="29.999999999999972"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -450,7 +450,7 @@
         <!--View Controller-->
         <scene sceneID="XGi-7B-jBe">
             <objects>
-                <viewController storyboardIdentifier="B" id="q9P-C2-ZLW" customClass="B_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="B" id="q9P-C2-ZLW" customClass="B_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iAP-fX-QeP"/>
                         <viewControllerLayoutGuide type="bottom" id="0OC-gQ-bWx"/>
@@ -544,7 +544,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QtH-12-nH4">
                                         <rect key="frame" x="0.0" y="216.66666666666666" width="404" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lu5-QM-rbn">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="lu5-QM-rbn">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -592,7 +592,7 @@
         <!--View Controller-->
         <scene sceneID="S1t-Df-2RM">
             <objects>
-                <viewController storyboardIdentifier="C" id="DjP-xc-cpK" customClass="C_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="C" id="DjP-xc-cpK" customClass="C_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hB9-cp-gha"/>
                         <viewControllerLayoutGuide type="bottom" id="HjV-sg-woU"/>
@@ -696,7 +696,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JkO-pu-adw">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hza-Ea-ear">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="hza-Ea-ear">
                                                         <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
@@ -753,7 +753,7 @@
         <!--View Controller-->
         <scene sceneID="Anz-iU-aal">
             <objects>
-                <viewController storyboardIdentifier="D" id="8XU-lb-Em0" customClass="D_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="D" id="8XU-lb-Em0" customClass="D_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oba-Ok-dP5"/>
                         <viewControllerLayoutGuide type="bottom" id="XQa-No-Yam"/>
@@ -914,7 +914,7 @@
         <!--View Controller-->
         <scene sceneID="Jr8-iu-Wmf">
             <objects>
-                <viewController storyboardIdentifier="E" id="WCW-T1-zEA" customClass="E_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="E" id="WCW-T1-zEA" customClass="E_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pvN-RP-Eo8"/>
                         <viewControllerLayoutGuide type="bottom" id="XR5-HA-xq7"/>
@@ -999,7 +999,7 @@
                                             <action selector="caculateBtnTapped:" destination="WCW-T1-zEA" eventType="touchUpInside" id="W2J-3z-Ivf"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07c-PZ-rMJ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="07c-PZ-rMJ">
                                         <rect key="frame" x="0.0" y="187.66666666666666" width="407" height="30"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1048,7 +1048,7 @@
         <!--View Controller-->
         <scene sceneID="3V6-iH-iid">
             <objects>
-                <viewController storyboardIdentifier="F" id="D06-Z0-zNg" customClass="F_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="F" id="D06-Z0-zNg" customClass="F_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uhx-jp-V2J"/>
                         <viewControllerLayoutGuide type="bottom" id="gVe-J1-7Ze"/>
@@ -1145,7 +1145,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="md8-71-uxI">
                                         <rect key="frame" x="0.0" y="261.66666666666669" width="404" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXf-Mc-OBO">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KXf-Mc-OBO">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -1190,7 +1190,7 @@
         <!--View Controller-->
         <scene sceneID="oM1-3x-P5v">
             <objects>
-                <viewController storyboardIdentifier="G" id="Vaw-D5-3bd" customClass="G_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="G" id="Vaw-D5-3bd" customClass="G_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OvN-I8-MuJ"/>
                         <viewControllerLayoutGuide type="bottom" id="x5e-qo-zTd"/>
@@ -1418,7 +1418,7 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xgN-hc-gbB">
                                                                 <rect key="frame" x="0.0" y="7" width="404" height="30"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annular volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niY-6V-Y1Z">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annular volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="niY-6V-Y1Z">
                                                                         <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <constraints>
@@ -1439,7 +1439,7 @@
                                                     </stackView>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bottoms Up Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toX-E0-Ibc">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bottoms Up Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="toX-E0-Ibc">
                                                 <rect key="frame" x="0.0" y="44.333333333333371" width="404" height="30"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -1504,7 +1504,7 @@
         <!--View Controller-->
         <scene sceneID="DqG-Eb-qRV">
             <objects>
-                <viewController storyboardIdentifier="I" id="jBE-Hq-y0y" customClass="I_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="I" id="jBE-Hq-y0y" customClass="I_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xEd-nU-qQK"/>
                         <viewControllerLayoutGuide type="bottom" id="AQV-gi-Elj"/>
@@ -1701,7 +1701,7 @@
         <!--View Controller-->
         <scene sceneID="Qk7-Vc-Mil">
             <objects>
-                <viewController storyboardIdentifier="H" id="foG-N9-4Mk" customClass="H_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="H" id="foG-N9-4Mk" customClass="H_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gaF-sn-kCl"/>
                         <viewControllerLayoutGuide type="bottom" id="cGu-Sc-jPt"/>
@@ -1847,7 +1847,7 @@
         <!--View Controller-->
         <scene sceneID="fmd-KE-p9c">
             <objects>
-                <viewController storyboardIdentifier="K" id="fBc-QI-Lzc" customClass="K_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="K" id="fBc-QI-Lzc" customClass="K_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IeO-dN-rjn"/>
                         <viewControllerLayoutGuide type="bottom" id="WcN-7D-ata"/>
@@ -1968,7 +1968,7 @@
                                                 <color key="textColor" red="0.9152866005897522" green="0.24655312299728394" blue="0.20107686519622803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMW at TD:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tu3-kY-hRq">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMW at TD:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Tu3-kY-hRq">
                                                 <rect key="frame" x="0.0" y="35" width="404" height="30"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -2026,7 +2026,7 @@
         <!--View Controller-->
         <scene sceneID="ad4-Ya-Hyh">
             <objects>
-                <viewController storyboardIdentifier="J" id="gnB-73-ScB" customClass="J_ViewController" customModule="MetricRigCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="J" id="gnB-73-ScB" customClass="J_ViewController" customModule="MetricRigCalcSI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OMP-Ks-Rlz"/>
                         <viewControllerLayoutGuide type="bottom" id="xyr-ZX-Kbd"/>
@@ -2114,7 +2114,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="dpq-J1-X5y">
                                         <rect key="frame" x="0.0" y="208" width="404" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pipe stuck at:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulz-Em-1Cy">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pipe stuck at:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ulz-Em-1Cy">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="30"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>

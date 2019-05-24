@@ -43,6 +43,9 @@ class F_ViewController: UIViewController {
     }
     
     @IBAction func calculateButtonTapped(_ sender: Any) {
+        if mudVolumeTextField.text == "" || pressureAppliedTextField.text == "" {
+            ouputLabel.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
         
         let num = NumberFormatter()
         var value1 = mudVolumeTextField.text!
@@ -61,5 +64,5 @@ class F_ViewController: UIViewController {
         ouputLabel.text = String (format: " Mud needed to pressure Up: %.2f m3", outPut)
     }
 }
-
+}
 

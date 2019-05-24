@@ -26,7 +26,9 @@ class C_ViewController: UIViewController {
     }
     
     @IBAction func calculateButtonTapped(_ sender: Any) {
-
+        if drillPipeID.text == "" || slugVolume.text == "" || slugWeight.text == "" || mudWeight.text == "" {
+            metersDropLevel.text = String("Please fill out all cells with real numbers first.")
+        } else {
         var firstValue = Double(drillPipeID.text!)
         var secondValue = Double(slugVolume.text!)
         var thirdValue = Double(slugWeight.text!)
@@ -66,7 +68,7 @@ class C_ViewController: UIViewController {
             metersDropLevel.text = String (format: "Fluid level at %.1f m", outputValue2)
         }
     }
-    
+    }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }
 

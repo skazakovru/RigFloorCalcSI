@@ -26,14 +26,20 @@ class E_ViewController: UIViewController {
     }
     
     @IBAction func caculateBtnTapped(_ sender: Any) {
-        
+        if linerDiam.text == "" || strokeLength.text == "" || pumpEfficiency.text == "" {
+            outputLiters.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
         let num = NumberFormatter()
         var value = linerDiam.text!
+        var value2 = strokeLength.text!
         if num.number(from:value) == nil {
             value = value.replacingOccurrences(of: ".", with: ",")
         }
+        if num.number(from:value2) == nil {
+            value2 = value2.replacingOccurrences(of: ".", with: ",")
+        }
         let firstValue = Double(truncating: num.number(from: value)!)
-        let secondValue = Double(truncating: num.number(from: strokeLength.text!)!)
+        let secondValue = Double(truncating: num.number(from: value2)!)
         let thirdValue = Double(truncating: num.number(from: pumpEfficiency.text!)!)
         
         let outputValue1 = Double (0.000000015 * firstValue * firstValue *  secondValue * thirdValue / 100)
@@ -44,7 +50,7 @@ class E_ViewController: UIViewController {
         outputLiters.text = String (format: "%.1f liters/stk", outputValue2)
         
     }
-    
+    }
 
     @IBAction func gestureTapped(_ sender: Any) {view.endEditing(true)
     }
