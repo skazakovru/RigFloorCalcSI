@@ -27,7 +27,9 @@ class K_ViewController: UIViewController {
     
 
     @IBAction func calculateButtonTapped(_ sender: Any) {
-
+        if annCap.text == "" || lightFluidAdded.text == "" || addedFluidWeight.text == "" || originalMudWeight.text == "" || trueVerticalDepth.text == ""{
+            bhpDecrease.text = String("Ooops! Please fill out all cells with valid numbers first.")
+        } else {
         
         let num = NumberFormatter()
         var value1 = annCap.text!
@@ -67,6 +69,7 @@ class K_ViewController: UIViewController {
             equivalentMudWeight.text = String (format: "EMW at TD: %.0f kg/m3", outputValue2)
             
         }
+    }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }
 }

@@ -31,6 +31,10 @@ class I_ViewController: UIViewController {
 
     @IBAction func calculateTapped(_ sender: Any) {
         
+        if measuredLagTime.text == "" || annularVolume.text == "" || bitSize.text == "" || pumpOutput.text == "" || openHoleLength.text == "" {
+            outputTextLabel.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
+        
         let num = NumberFormatter()
         var value1 = measuredLagTime.text!
         if num.number(from:value1) == nil {
@@ -63,6 +67,7 @@ class I_ViewController: UIViewController {
             
             outputTextLabel.text = String (format: "Average OH diameter: %.2f mm", outputValue)
         }
+    }
     @IBAction func screenTapped(_ sender: Any) {view.endEditing(true)
     }
     }   

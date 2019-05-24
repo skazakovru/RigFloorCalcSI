@@ -35,7 +35,9 @@ class J_ViewController: UIViewController {
     
 
     @IBAction func calculateBtnTapped(_ sender: Any) {
-    
+        if drillpipeWeight.text == "" || pipeStretch.text == "" || pipeOverpull.text == "" {
+            depthStuck.text = String("Nice try! Please fill out all cells with real numbers first.")
+        } else {
         
         let num = NumberFormatter()
         var value1 = drillpipeWeight.text!
@@ -61,4 +63,4 @@ class J_ViewController: UIViewController {
         depthStuck.text = String (format: "Estimated stuck point: %.0f meters", calculatedValue)
     }
 }
-
+}
